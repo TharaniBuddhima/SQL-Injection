@@ -1,0 +1,7 @@
+The SQL Injection vulnerability was identified in the 'id' parameter of the DVWA SQL Injection page.
+
+By modifying the parameter to include a condition that always evaluates to true, the SQL query logic was altered.
+
+This resulted in the database returning all user records instead of a single result.
+
+The vulnerability exists due to lack of input validation and direct use of user input in SQL queries.

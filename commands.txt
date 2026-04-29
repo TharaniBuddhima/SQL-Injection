@@ -1,0 +1,7 @@
+Start Burp Suite
+Enable Proxy Intercept
+Capture SQL Injection request
+Send request to Repeater
+Modify id parameter
+Send request
+Analyze response
